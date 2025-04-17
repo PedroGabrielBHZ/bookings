@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"app/pkg/config"
-	"app/pkg/models"
-	"app/pkg/render"
 	"net/http"
+
+	"github.com/PedroGabrielBHZ/bookings/pkg/config"
+	"github.com/PedroGabrielBHZ/bookings/pkg/models"
+	"github.com/PedroGabrielBHZ/bookings/pkg/render"
 )
 
 var Repo *Repository

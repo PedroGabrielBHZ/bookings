@@ -1,11 +1,12 @@
 package render
 
 import (
-	"app/pkg/models"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
+
+	"github.com/PedroGabrielBHZ/bookings/pkg/models"
 )
 
 var templateCache = make(map[string]*template.Template)

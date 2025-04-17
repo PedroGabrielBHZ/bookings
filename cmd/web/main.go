@@ -1,9 +1,10 @@
 package main
 
 import (
-	"app/pkg/config"
-	"app/pkg/handlers"
 	"time"
+
+	"github.com/PedroGabrielBHZ/bookings/pkg/config"
+	"github.com/PedroGabrielBHZ/bookings/pkg/handlers"
 
 	"fmt"
 	"log"
